@@ -1,0 +1,157 @@
+2024-08-18 05:31:57.266 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 05:40:43.064 | INFO     | main:img_object_detection_to_img:183 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 05:41:53.124 | INFO     | main:img_object_detection_to_img:183 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 05:42:18.447 | INFO     | main:img_object_detection_to_img:183 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 05:42:56.123 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 06:09:17.078 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 06:12:06.134 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-18 06:12:40.128 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 08:22:30.882 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.8026735187}, {'name': 'maely', 'confidence': 0.7216554284}], 'detect_objects_names': 'maely, maely'}
+2024-08-18 08:27:30.170 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.8026735187}, {'name': 'maely', 'confidence': 0.7216554284}], 'detect_objects_names': 'maely, maely'}
+2024-08-18 08:32:01.325 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 08:32:28.061 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 14:50:08.948 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 15:58:20.853 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:11:17.233 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:19:01.523 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:21:24.292 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:23:51.879 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:24:34.897 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:24:38.917 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:31:59.339 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:33:04.347 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:41:53.176 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:43:09.173 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:43:38.798 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:44:36.157 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:45:31.028 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:45:49.709 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:46:16.080 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:47:27.257 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:50:04.466 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:51:05.115 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 16:51:51.420 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-18 17:02:00.615 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-19 01:58:13.403 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 01:58:44.243 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 01:59:19.611 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 01:59:43.088 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-19 02:01:38.106 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8535846472}], 'detect_objects_names': 'durian borer'}
+2024-08-19 14:02:55.877 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:07:44.732 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:08:09.402 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:10:13.864 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:10:49.680 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:11:51.939 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:12:58.254 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:13:17.553 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:14:26.358 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.523666203}], 'detect_objects_names': 'durian borer'}
+2024-08-19 14:15:09.953 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:17:54.166 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:20:17.513 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5650301576}], 'detect_objects_names': 'maely'}
+2024-08-19 14:21:33.898 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5650301576}], 'detect_objects_names': 'maely'}
+2024-08-19 14:22:16.964 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:23:22.098 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:26:59.140 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 14:56:23.974 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 15:12:18.943 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 15:12:37.931 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5650301576}], 'detect_objects_names': 'maely'}
+2024-08-19 15:13:13.645 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5650301576}], 'detect_objects_names': 'maely'}
+2024-08-19 15:14:35.596 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-08-19 15:15:41.738 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8993035555}], 'detect_objects_names': 'durian borer'}
+2024-08-19 15:16:55.641 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8993035555}], 'detect_objects_names': 'durian borer'}
+2024-08-19 15:17:18.223 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8993035555}], 'detect_objects_names': 'durian borer'}
+2024-08-19 15:18:41.569 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8993035555}], 'detect_objects_names': 'durian borer'}
+2024-08-19 15:18:58.515 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5650301576}], 'detect_objects_names': 'maely'}
+2024-08-19 15:25:47.457 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8993035555}], 'detect_objects_names': 'durian borer'}
+2024-08-19 15:26:01.906 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5650301576}], 'detect_objects_names': 'maely'}
+2024-11-01 05:25:18.635 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 05:26:18.682 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:14:33.718 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:14:49.531 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:18:07.228 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:20:34.291 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.7732809782}, {'name': 'maely', 'confidence': 0.7161675692}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 06:21:49.043 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:23:29.744 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:23:46.143 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:25:07.406 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:25:58.941 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:26:08.621 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:26:15.315 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.7732809782}, {'name': 'maely', 'confidence': 0.7161675692}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 06:26:25.164 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.7732809782}, {'name': 'maely', 'confidence': 0.7161675692}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 06:26:39.057 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:30:00.385 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.7732809782}, {'name': 'maely', 'confidence': 0.7161675692}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 06:32:20.994 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:33:17.265 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.7732809782}, {'name': 'maely', 'confidence': 0.7161675692}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 06:33:26.077 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 06:33:33.920 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:41:18.762 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 06:41:38.978 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 08:28:38.721 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.8870234489}], 'detect_objects_names': 'durian borer'}
+2024-11-01 08:30:03.814 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.568069756}], 'detect_objects_names': 'maely'}
+2024-11-01 08:30:14.217 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5996049047}], 'detect_objects_names': 'maely'}
+2024-11-01 08:31:21.737 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.5996049047}], 'detect_objects_names': 'maely'}
+2024-11-01 08:31:52.454 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 08:40:04.632 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.7074991465}], 'detect_objects_names': 'glenea'}
+2024-11-01 08:40:13.229 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'carriola', 'confidence': 0.9503008723}, {'name': 'carriola', 'confidence': 0.7896566391}], 'detect_objects_names': 'carriola, carriola'}
+2024-11-01 08:43:02.387 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 08:52:12.977 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.7074991465}], 'detect_objects_names': 'glenea'}
+2024-11-01 08:53:55.828 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 08:54:16.513 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 08:54:29.369 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'carriola', 'confidence': 0.9241174459}], 'detect_objects_names': 'carriola'}
+2024-11-01 08:59:32.532 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 08:59:51.524 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'psyllids', 'confidence': 0.7539358735}], 'detect_objects_names': 'psyllids'}
+2024-11-01 09:00:29.157 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'carriola', 'confidence': 0.9241174459}], 'detect_objects_names': 'carriola'}
+2024-11-01 09:01:16.739 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.7109276652}], 'detect_objects_names': 'glenea'}
+2024-11-01 09:02:04.852 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.7109276652}], 'detect_objects_names': 'glenea'}
+2024-11-01 09:02:32.941 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 09:03:04.109 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'carriola', 'confidence': 0.6046366096}], 'detect_objects_names': 'carriola'}
+2024-11-01 09:03:17.169 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.6365398169}], 'detect_objects_names': 'glenea'}
+2024-11-01 09:03:36.377 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 09:05:09.179 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.9255126715}, {'name': 'maely', 'confidence': 0.5762608051}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 09:07:35.357 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'carriola', 'confidence': 0.598477006}], 'detect_objects_names': 'carriola'}
+2024-11-01 09:12:18.857 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 14:02:28.522 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.9255126715}, {'name': 'maely', 'confidence': 0.5762608051}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 14:03:50.914 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 14:05:37.130 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 14:06:56.330 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 14:09:17.369 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 14:10:42.321 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.9255126715}, {'name': 'maely', 'confidence': 0.5762608051}], 'detect_objects_names': 'maely, maely'}
+2024-11-01 14:20:07.054 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-01 14:20:45.901 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-01 14:22:38.578 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-02 01:57:20.765 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-02 02:49:14.209 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-02 02:50:49.093 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.7074991465}], 'detect_objects_names': 'glenea'}
+2024-11-02 03:15:52.737 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-03 01:57:54.581 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-03 02:01:42.603 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-03 02:01:52.640 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-03 02:02:15.873 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'maely', 'confidence': 0.9255126715}, {'name': 'maely', 'confidence': 0.5762608051}], 'detect_objects_names': 'maely, maely'}
+2024-11-03 02:04:29.486 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-03 02:46:29.096 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-03 02:54:45.649 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-03 02:58:10.290 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.9085404873}], 'detect_objects_names': 'durian borer'}
+2024-11-17 10:27:41.746 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-17 11:07:30.213 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:18:19.613 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:19:03.802 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:20:38.881 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:21:49.928 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:22:18.307 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:23:12.804 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:23:29.925 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:49:20.555 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-17 12:52:17.391 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'durian borer', 'confidence': 0.951000154}], 'detect_objects_names': 'durian borer'}
+2024-11-18 03:31:58.267 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:37:50.559 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:38:32.644 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:41:33.776 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.939348042}], 'detect_objects_names': 'glenea'}
+2024-11-18 03:41:58.448 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:43:28.723 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:45:30.193 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:46:34.208 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.939348042}], 'detect_objects_names': 'glenea'}
+2024-11-18 03:46:51.596 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:54:35.030 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.939348042}], 'detect_objects_names': 'glenea'}
+2024-11-18 03:56:40.236 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [], 'detect_objects_names': ''}
+2024-11-18 03:56:52.861 | INFO     | main:img_object_detection_to_json:155 - results: {'detect_objects': [{'name': 'glenea', 'confidence': 0.939348042}], 'detect_objects_names': 'glenea'}
