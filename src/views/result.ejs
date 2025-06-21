@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Durio scan</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="index-bg container-fluid">
+    <header class="row border-bottom-custom result-height">
+        <div class="col-12 my-3 d-flex flex-row align-items-start my-5">
+            <!-- <div class="col-12 col-md-4"> -->
+            <div class="col-2">
+                <img class="logo-size" src="/assets/img/pngwing.png" alt="logo">
+            </div>
+            <div class="col-4 bg-color-img-result text-center rounded-4 mx-4">
+                <div class="col-12 pt-5">
+                    <img id="myImage" src="/assets/img/pest-scan1.png" alt="Durio" class="img-responsive rounded-4">
+                </div>
+                <div class="col-12 py-5">
+                    <span>
+                        <h1 id="durioNameTH"></h1>
+                    </span>
+                    <h3 id="durioNameEN"></h3>
+                    <h5 id="confidence" class="text-result-color pt-5"></h5>
+                </div>
+            </div>
+            <!-- </div> -->
+            <div class="col-6 px-5">
+                <div class="d-flex align-items-center">
+                    <div class="features-icons-item border-round">
+                        <div class="col-12 py-4 bg-black-result rounded-4">
+                            <h3 class="text-left text-green px-3 text-result-color">วิธีการกำจัด</h3>
+                        </div>
+                        <div class="col-12 py-4 bg-egliminate bg-img-result mt-4 mb-5 rounded-4">
+                            <!-- <h3 class="text-left text-green px-3">ชื่อ : <span id="durioNameTH1"></span>
+                            </h3> -->
+                            <div class="text-left text-black"><p id="howToEliminate" class="text-left text-black"></p></div>
+                        </div>
+                        <!-- <p class="lead mb-0">Ready to use with your own content, or customize the source
+                            files!</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Masthead-->
+    <div class="overlay">
+        <div class="overlay__inner">
+            <div class="overlay__content"><span class="spinner"></span></div>
+        </div>
+    </div>
+    <!-- <div class="container position-relative">
+        <div class="row justify-content-center">
+            <section class="features-icons text-center">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 pt-5">
+                            <div class="row align-items-center">
+                                
+                            </div>
+                        </div>
+                        <div class="col-12 pt-5">
+                            <div class="row align-items-center">
+                                <div class="features-icons-item border-round bg-light">
+                                    <div class="col-12 py-4">
+                                        <h3 class="text-left text-green px-3">ชื่อ : <span id="durioNameTH1"></span>
+                                        </h3>
+                                        <div class="text-left" id="howToEliminate"></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div> -->
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://path-to-jquery"></script>
+    <script src="/javascripts/website.js"></script>
+    <script type="text/javascript">
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    ".overlay").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    ".overlay").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+
+        const durio = localStorage.getItem('responseJson');
+        const durioData = JSON.parse(durio);
+        console.log("durioData =>>", durioData)
+        if (durioData?.detect_objects[0]?.name) {
+            document.getElementById('durioNameEN').innerText = durioData?.detect_objects[0]?.name;
+            document.getElementById('confidence').innerText = 'ความเป็นไปได้ : ' + parseFloat(durioData?.detect_objects[0]?.confidence * 100).toFixed(2) + ' %';
+            switch (durioData?.detect_objects[0]?.name) {
+                case 'durian borer':
+                    document.getElementById('durioNameTH').innerText = "หนอนเจาะทุเรียน";
+                    // document.getElementById('durioNameTH1').innerHTML = "หนอนเจาะทุเรียน";
+                    (document.getElementById("howToEliminate").innerHTML +=
+                        ` 
+                    <ol class="px-5">
+                        <li>ให้ใช้ไม้หรือลวดแข็งเขี่ยตัวหนอนออกมาทำลายทิ้ง</li>
+                        <li>ควรใช้กิ่งไม้หรือกาบมะพร้าวคั่นระหว่างผล เพื่อป้องกันไม่ให้ตัวเต็มวัยวางไข่หรือตัวหนอนเข้าหลบอาศัย</li>
+                        <li>ควรเริ่มห่อผลทุเรียนตั้งแต่มีอายุ 6 สัปดาห์เป็นต้นไปด้วยถุงมุ้งไนล่อน ถุงรีเมย์ หรือถุงพลาสติกสีขาวขุ่นที่เจาะรูบริเวณขอบล่าง เพื่อให้น้ำระบายออกมาได้</li>
+                        <li>ควรเริ่มห่อผลทุเรียนตั้งแต่มีอายุ 6 สัปดาห์เป็นต้นไปด้วยถุงมุ้งไนล่อน ถุงรีเมย์ หรือถุงพลาสติกสีขาวขุ่นที่เจาะรูบริเวณขอบล่าง เพื่อให้น้ำระบายออกมาได้</li>
+                        <li>ควรเริ่มห่อผลทุเรียนตั้งแต่มีอายุ 6 สัปดาห์เป็นต้นไปด้วยถุงมุ้งไนล่อน ถุงรีเมย์ หรือถุงพลาสติกสีขาวขุ่นที่เจาะรูบริเวณขอบล่าง เพื่อให้น้ำระบายออกมาได้</li>
+                    </ol> `)
+                    break;
+                case 'maely':
+                    document.getElementById('durioNameTH').innerText = "เพลี้ยแป้ง";
+                    // document.getElementById('durioNameTH1').innerHTML = "เพลี้ยแป้ง";
+                    (document.getElementById("howToEliminate").innerHTML +=
+                        ` 
+                    <ol class="px-5">
+                        <li>น้ำยาล้างจาน ชนิดไม่มีสารฟอกขาว ซึ่งมีฤทธิ์ลดแรงตึงผิว</li>
+                        <li>หรืออาจเพิ่มความรุนแรงขึ้นอีก ด้วยการผสมกับพริกสด ซึ่งมีสารรบกวนระบบการดูดซึมอาหารของเพลี้ยแป้ง ในอัตราส่วน พริกสดตำละเอียด 1- 2 ช้อนชา</li>
+                        <li>หากสูตรเบื้องต้นยังไม่สาแก่ใจ แต่ยังกลัวสารเคมีรุนแรงอยู่  ลองใช้สูตรเหล้าขาว 2 ขวด น้ำส้มสายชู 5 %  1 ลิตร สาร EM 1 ลิตร กากน้ำตาล 1 ลิตร และน้ำสะอาด 10 ลิตร นำทั้งหมดมาผสมกันและหมักไว้นาน 10 – 15 วัน</li>
+                    </ol> `)
+                    break;
+                case 'carriola':
+                    document.getElementById('durioNameTH').innerText = "หนอนบุ้งหูแดง";
+                    // document.getElementById('durioNameTH1').innerHTML = "หนอนบุ้งหูแดง";
+                    (document.getElementById("howToEliminate").innerHTML +=
+                        ` 
+                    <ol class="px-5">
+                         <li>เหล้าขาว1ขวดใหญ่ น้ำส้มสายชูกลั่น5% 1ขวดใหญ่ ยาฉุน2ขีด คนให้เข้ากันแช่รวมกันไว้ 1คืน ใช้อัตราส่วน 2ช้อนโต้ะต่อน้ำ10ลิตร</li>
+                        <li>น้ำส้มสายชู1ขวดใหญ่ พริกสด1ขีดหรือ1กำมือ โขลกพริกผสมน้ำส้มหมักไว้1คืน ใช้อัตราส่วน 2ช้อนโต้ะต่อน้ำ 10ลิตร</li>
+                        <li>เหล้าขาว 2แก้ว น้ำส้มสายชู 1แก้ว EM 1แก้ว กากน้ำตาลหรือน้ำตาลทรายแดง 1แก้ว ผสมทั้งหมดหมักไว้ 1คืน ใช้อัตราส่วน 5-10ช้อนโต้ะต่อน้ำ 20ลิตร</li>
+                        <li>ใช้เชื้อบี.ที.(บาซิลัส ทูริงเยนซิส)ผสมน้ำฉีด</li>
+                    </ol> `)
+                    break;
+                case 'glenea':
+                    document.getElementById('durioNameTH').innerText = "ด้วงหนวดยาว";
+                    // document.getElementById('durioNameTH1').innerHTML = "ด้วงหนวดยาว";
+                    (document.getElementById("howToEliminate").innerHTML +=
+                        ` 
+                    <ol class="px-5">
+                        <li>ตัดและทำลายส่วนที่ติดเชื้อ <br>หากพบว่ามีไข่หรือตัวอ่อนอยู่ในเนื้อไม้ ให้ตัดส่วนที่มีการติดเชื้อและนำไปทำลาย เช่น การเผาทิ้ง หรือฝังดินให้ลึกเพื่อลดโอกาสการแพร่พันธุ์</li>
+                        <li>ใช้สารเคมีป้องกันและกำจัด <br>สำหรับการป้องกันการแพร่พันธุ์ สามารถใช้สารเคมีที่มีส่วนผสมของสารออกฤทธิ์ เช่น ไซเพอร์เมทริน หรือไบเฟนทริน ฉีดพ่นบนต้นไม้หรือจุดที่พบด้วงหนวดยาว ควรปฏิบัติตามคำแนะนำและสวมอุปกรณ์ป้องกันเพื่อความปลอดภัย</li>
+                        <li>ฉีดสารเคมีเข้าต้นไม้ <br>กรณีที่การระบาดรุนแรง อาจใช้วิธีการฉีดสารเคมีเข้าไปในลำต้นโดยตรง (Tree Injection) เพื่อกำจัดตัวอ่อนของด้วงที่อยู่ในต้น วิธีนี้ต้องให้ผู้เชี่ยวชาญด้านการเกษตรทำ เพราะมีความซับซ้อนและต้องใช้อุปกรณ์เฉพาะทาง </li>
+                        <li>ใช้กับดักฟีโรโมน <br>ฟีโรโมนเป็นกลิ่นที่ใช้ดึงดูดด้วงหนวดยาว โดยติดตั้งกับดักฟีโรโมนไว้ในบริเวณที่มีการระบาด เพื่อให้ด้วงเข้ามาติดกับดัก และนำไปกำจัดอย่างปลอดภัย ช่วยลดจำนวนด้วงได้ในระยะยาว </li>
+                        <li>ปล่อยศัตรูธรรมชาติ <br>มีแมลงและสัตว์อื่นๆ ที่เป็นศัตรูธรรมชาติของด้วงหนวดยาว เช่น นกและแมงมุม การสร้างสภาพแวดล้อมที่เหมาะสมให้ศัตรูธรรมชาติเหล่านี้สามารถช่วยควบคุมประชากรของด้วงหนวดยาวได้ </li>
+                        <li>การห่อหุ้มลำต้นไม้ <br>สามารถห่อหุ้มลำต้นไม้ด้วยพลาสติกหรือผ้าคลุมเพื่อลดการเข้าถึงของด้วงที่ต้องการวางไข่ในเนื้อไม้ </li>
+                    </ol> `)
+                    break;
+                case 'psyllids':
+                    document.getElementById('durioNameTH').innerText = "เพลี้ยไก่แจ้";
+                    // document.getElementById('durioNameTH1').innerHTML = "เพลี้ยไก่แจ้";
+                    (document.getElementById("howToEliminate").innerHTML +=
+                        ` 
+                    <ol class="px-5">
+                        <li>ตัดและทำลายส่วนที่ติดเชื้อ <br>ตัดกิ่ง ใบ หรือต้นที่มีเพลี้ยไก่แจ้ และนำไปเผาหรือฝังให้ลึก เพื่อป้องกันการแพร่ระบาดต่อไป วิธีนี้เหมาะสำหรับการควบคุมในระยะเริ่มต้นที่มีการติดเชื้อไม่มาก</li>
+                        <li>ใช้น้ำฉีดแรงดันสูง<br>การฉีดน้ำแรง ๆ ไปที่ส่วนของต้นไม้ที่มีเพลี้ยเกาะอยู่ จะช่วยให้เพลี้ยหลุดออกจากพืช และลดจำนวนเพลี้ยได้โดยไม่ต้องใช้สารเคมี</li>
+                        <li>ใช้สารสกัดจากธรรมชาติ<br>-น้ำส้มควันไม้: น้ำส้มควันไม้ช่วยกำจัดเพลี้ยและป้องกันการกลับมาอาศัยของเพลี้ยได้ <br>-สารสกัดสะเดา: ใช้สะเดาผสมน้ำแล้วฉีดพ่นบริเวณที่พบเพลี้ยไก่แจ้ สะเดามีฤทธิ์ยับยั้งการกินอาหารและการวางไข่ของเพลี้ย</li>
+                        <li>ใช้สารเคมี<br>หากมีการระบาดอย่างหนัก อาจต้องใช้สารเคมีกำจัดเพลี้ยที่มีสารออกฤทธิ์ เช่น ไดอะซีนอนหรืออิมิดาคลอพริด ฉีดพ่นตามคำแนะนำจากฉลาก ควรใช้ด้วยความระมัดระวังและสวมอุปกรณ์ป้องกัน</li>
+                        <li>ปล่อยแมลงที่เป็นศัตรูธรรมชาติของเพลี้ย<br>ศัตรูธรรมชาติของเพลี้ย เช่น แมลงเต่าทอง และ แตนเบียน จะช่วยควบคุมจำนวนเพลี้ยได้โดยธรรมชาติ วิธีนี้เป็นการควบคุมที่ปลอดภัยต่อพืชและระบบนิเวศในระยะยาว</li>
+                        <li>ปรับปรุงการดูแลต้นไม้ให้แข็งแรง<br>ต้นไม้ที่มีสุขภาพแข็งแรงจะสามารถต้านทานการโจมตีของเพลี้ยได้ดีขึ้น ควรดูแลต้นไม้ให้ได้รับแสงแดดที่เพียงพอ รดน้ำสม่ำเสมอ และใส่ปุ๋ยที่เหมาะสม</li>
+                    </ol> `)
+                    break;
+                default:
+                document.getElementById('durioNameTH').innerText = "ไม่พบข้อมูล";
+                    // document.getElementById('durioNameTH1').innerHTML = "เพลี้ยไก่แจ้";
+                    (document.getElementById("howToEliminate").innerHTML +=
+                        ` 
+                    <ol class="px-5">
+                        <li>ไม่พบข้อมูลวิธีการกำจัด</li>
+                    </ol> `)
+                    break;
+            }
+        } else {
+            document.getElementById('durioNameTH').innerText = 'ไม่พบข้อมูล';
+            document.getElementById('durioNameEN').innerText = 'data not found';
+            document.getElementById('confidence').innerText = 'ไม่พบข้อมูล';
+            document.getElementById('howToEliminate').innerHTML += `
+            <ol class="px-5">
+                ไม่พบวิธีการกำจัดแมลงกรุณาตรวจสอบข้อมูลรูปภาพแมลง หรือ ลองใหม่อีกครั้ง
+            </ol>`;
+        }
+
+        const dataURL = localStorage.getItem('responseImage');
+        // console.log('dataURL', dataURL)
+        // console.log('durioData', durioData.detect_objects[0].name)
+
+        document.getElementById('myImage').src = dataURL;
+
+
+        // localStorage.removeItem("responseJson");
+        // localStorage.removeItem("responseImage");
+    </script>
+</body>
+
+</html>
