@@ -11,11 +11,11 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use('/js', express.static(path.join(__dirname, '../public/js')));
 app.use('/img', express.static(path.join(__dirname, '../public/img')));
 
+app.use('/', route);
+
 app.get("/test", (req, res) => {
   res.send("API is working!");
 });
-
-app.use('/', route);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
